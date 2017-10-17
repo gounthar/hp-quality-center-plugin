@@ -9,7 +9,7 @@ A plugin for Jenkins CI that synchronizes Maven unit test results with HP ALM Qu
 
 This project uses CloudBees for continuous integration.
 
-[![Build Status](https://jenkins.ci.cloudbees.com/job/plugins/job/hp-quality-center-plugin/badge/icon)](https://jenkins.ci.cloudbees.com/job/plugins/job/hp-quality-center-plugin/)
+[![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins/hp-quality-center-plugin/master)](https://ci.jenkins.io/job/Plugins/job/hp-quality-center-plugin/job/master/)
 
 # Getting Started
 
