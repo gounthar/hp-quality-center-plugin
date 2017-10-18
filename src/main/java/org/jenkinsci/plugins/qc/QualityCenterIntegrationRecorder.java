@@ -150,7 +150,7 @@ public class QualityCenterIntegrationRecorder extends Recorder implements Simple
         }
 
         // Check if test set exists (create it if it is missing)
-        String jobName = build.getDisplayName();
+        String jobName = build.getParent().getDisplayName();
         List<Entity> sets = qc.query(domain, project).resource("test-sets")
                 .filter("parent-id[={0}];name[\"{1}\"]", labFolderEntity.get("id"), jobName).execute();
         Entity set = sets.isEmpty() ? null : sets.get(0);
