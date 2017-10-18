@@ -9,7 +9,7 @@
 
     <groupId>org.jenkins-ci.plugins.qc</groupId>
     <artifactId>hp-quality-center</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.6-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <name>HP ALM Quality Center Plugin</name>
